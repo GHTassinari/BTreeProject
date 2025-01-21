@@ -1,0 +1,32 @@
+#tree-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .node-container {
+    display: inline-block;
+  }
+  
+  .node {
+    display: inline-block;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+  }
+  
+  .branch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .connection {
+    height: 20px;
+    border-left: 2px solid black;
+    margin: 0 auto;
+  }
+  
